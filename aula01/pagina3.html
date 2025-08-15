@@ -16,9 +16,36 @@
             <label for="Login">Login: </label>
             <input type="text" name="Login" id="Login" autofocus required minlength="5" maxlength="20">
             <label for="Senha">Senha: </label>
-            <input type="password" name="Senha" id="Senha" required>
-
+            <input type="password" name="Senha" id="Senha" required minlength="3" maxlength="6">
+            <br><input type="text" name="Endereço" id="Endereço" placeholder="Informe endereço" maxlength="100" size="50">
+            <br>
+            <label for="Idade">Idade: </label>
+            <input type="number" name="Idade" id="Idade" min="18" max="100">
+            <br>
+            <label for="Data">Informe a data atual: </label>
+            <input type="date" name="Data" id="Data">
+            <br>
+            <label for="Data/Hora">Informe a data/hora:</label>
+            <input type="datetime" name="datalocal" id="datalocal">
+            <input type="time" name="hora" id="hora">
+            <br>
+            <label for="Mês">Informe o mês atual: </label>
+            <input type="month" name="Mês" id="Mês">
+            <br>
+            <label for="Semana">Informe a semana: </label>
+            <input type="week" name="semana" id="semana">
+            <br>
+            <input type="text" name="campo1" id="campo1" readonly value="campo1">
+            <input type="text" name="campo2" id="campo2" disabled value="campo2">
+            <input type="hidden" name="campo3" value="campo3">
+            <br>
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <input type="url" name="url" id="url" placeholder="URL">
+            <br>
+            <label for="checkbox">Salvar login: </label>
+            <input type="checkbox" name="checkbox" id="checkbox" value="Salvo">
             <br><input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
         </form>
     </p>
     

@@ -45,18 +45,26 @@
             <label for="checkbox">Salvar login: </label>
             <input type="checkbox" name="checkbox" id="checkbox" value="Salvo" checked>
             <br>
-            <label for="Cidade">Blumenau: </label>
-            <input type="radio" name="cidade" id="cidade" value="BNU">
-            <label for="Cidade">Gaspar: </label>
+            <label for="cidade1">Blumenau: </label>
+            <input type="radio" name="cidade" id="cidade1" value="BNU">
+            <label for="cidade2">Gaspar: </label>
             <input type="radio" name="cidade" id="cidade2" value="GPR">
-            <label for="Cidade">Indaial: </label>
+            <label for="cidade3">Indaial: </label>
             <input type="radio" name="cidade" id="cidade3" value="IND">
             <br>
             <label for="Estado">Estado: </label>
             <select name="estado" id="estado">
-                <option value="SC" selected>Informe o estado</option>
+                <option value="nenhum" selected>Nenhum</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
             </select>
-            <br><input type="submit" value="Enviar">
+            <br><textarea name="paragrafo" id="paragrafo" cols="50" rows="10"></textarea>
+            <br><input type="range" name="range">
+            <br><input type="tel" name="telefone" pattern="[0-9{5}]-[0-9]{4}">
+            <br><input type="file" name="" id="">
+            <br>
+                <input type="submit" value="Enviar">
                 <input type="reset" value="Limpar">
         </form>
     </p>

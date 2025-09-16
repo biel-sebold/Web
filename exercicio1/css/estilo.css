@@ -1,0 +1,82 @@
+header {
+    width: 100%;
+    font-size: larger;
+    background-color: lightblue;
+    padding: 10px;
+}
+
+nav menu {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+nav menu li a {
+    text-decoration: none;
+    color: blue;
+}
+
+form {
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 10px;
+    width: 250px;
+}
+
+form button {
+    background-color: green;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.maior {
+    font-size: 2em;
+}
+
+.menor {
+    font-size: 0.8em;
+}
+
+.hover-div:hover {
+    background-color: yellow;
+}
+
+table tr:nth-child(odd) {
+    background-color: silver;
+}
+
+table.layout {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    max-width: 900px;   
+    margin-top: 20px;
+}
+
+table.layout td {
+    border: 1px solid #111;
+    padding: 0;
+    height: 60px;
+    background-color: white;
+}
+
+.tabela-extra {
+    border-collapse: collapse;
+    width: 60%;          
+    margin-top: 20px;
+}
+
+.tabela-extra td {
+    border: 1px solid #000;
+    height: 40px;        
+    background-color: white;
+}
+
+.tabela-extra tr:nth-child(odd) td {
+    background-color: silver;
+}
+
+
+

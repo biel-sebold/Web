@@ -1,0 +1,46 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    text-align: center; 
+}
+
+input { 
+    padding: 10px; 
+    font-size: 16px; 
+}
+
+button { 
+    padding: 10px; 
+    margin: 10px; 
+}
+
+#feedback { 
+    margin-top: 20px; 
+}
+
+.letra { 
+    display: inline-block; 
+    padding: 10px; 
+    margin: 5px; 
+    border: 1px solid black; 
+    width: 40px; 
+    text-align: center; 
+}
+
+.correto { 
+    background-color: green; 
+    color: white; 
+}
+
+.posicao-errada { 
+    background-color: yellow; 
+}
+
+.incorreto { 
+    background-color: gray; 
+}
+
+#mensagem { 
+    margin-top: 20px; 
+    font-weight: bold; 
+}

@@ -1,0 +1,67 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px;
+}
+
+input { 
+    margin: 5px; 
+    padding: 5px; 
+}
+
+button { 
+    margin: 10px 0; 
+    padding: 10px; 
+
+}
+
+#resultadoSoma { 
+    margin-top: 10px; 
+}
+
+#resultadoComparacao { 
+    margin-top: 10px; 
+    padding: 10px; 
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+}
+
+input { 
+    margin: 5px; 
+    padding: 5px; 
+}
+
+button { 
+    margin: 10px; 
+    padding: 10px; 
+}
+
+#eco { 
+    margin-top: 10px; 
+}
+
+#tamanho { 
+    margin-top: 10px; 
+}
+
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+}
+
+table { 
+    border-collapse: collapse; 
+    margin-bottom: 20px; 
+}
+
+td { 
+    border: 1px solid black; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+button { 
+    padding: 10px; 
+}

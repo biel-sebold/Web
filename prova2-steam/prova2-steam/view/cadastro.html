@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Vapor Games</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="../model/apiModel.js" defer></script>
+    <script src="../model/userModel.js" defer></script>
+    <script src="../controller/inicioController.js" defer></script>
+    <script src="../controller/cadastroController.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo" onclick="window.location.href='inicio.html'">
+            <img src="../media/logo.png" alt="Logo Vapor Games">
+            <h1>Vapor Games</h1>
+        </div>
+
+        <nav class="nav">
+            <a href="inicio.html">Início</a>
+            <a href="login.html">Login</a>
+            <a href="usuario.html">Usuário</a>
+            <a href="cadastro.html" class="active">Cadastro</a>
+        </nav>
+
+        <div class="user-status" id="user-status">Usuário não autenticado</div>
+    </header>
+
+    <main class="main-content">
+        <div class="main-center">
+
+            <h2 class="titulo-pagina">Consulta de Cadastro</h2>
+
+            <div class="form-bloco">
+                <label for="inputId">Informe o ID</label>
+                <input type="number" id="inputId">
+                <button id="btnConsultar">Consultar</button>
+            </div>
+
+            <div id="resultado"></div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Caio Henrique Hort, Gabriel Sebold dos Santos e Lucas Cândido Belletti</p>
+    </footer>
+
+</body>
+
+
+</html>

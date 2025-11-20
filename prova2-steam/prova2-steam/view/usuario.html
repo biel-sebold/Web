@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style/style.css">
+    <script src="../model/userModel.js" defer></script>
+    <script src="../controller/inicioController.js" defer></script>
+    <script src="../controller/usuarioController.js" defer></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo" onclick="window.location.href='inicio.html'">
+            <img src="../media/logo.png" alt="Logo Vapor Games">
+            <h1>Vapor Games</h1>
+        </div>
+
+        <nav class="nav">
+            <a href="inicio.html">Início</a>
+            <a href="login.html">Login</a>
+            <a href="usuario.html" class="active">Usuário</a>
+            <a href="cadastro.html">Cadastro</a>
+        </nav>
+
+        <div class="user-status" id="user-status">Usuário não autenticado</div>
+    </header>
+
+    <main class="main-content">
+        <div class="main-center">
+
+            <h2 class="titulo-pagina">Dados do Usuário</h2>
+
+            <form id="formUsuario">
+                <label>Nome</label>
+                <input type="text">
+
+                <label>Email</label>
+                <input type="email">
+
+                <label>Data de nascimento</label>
+                <input type="date">
+
+                <label>Gênero</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gen" value="m"> Masculino</label>
+                    <label><input type="radio" name="gen" value="f"> Feminino</label>
+                </div>
+
+                <label>Preferências</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Promoções</label>
+                    <label><input type="checkbox"> Novidades</label>
+                </div>
+
+                <label>Estilo</label>
+                <select id="estiloSelect">
+                    <option value="default">Default</option>
+                    <option value="custom">Custom</option>
+                </select>
+
+                <button type="submit">Enviar</button>
+            </form>
+    </main>
+
+    <footer class="footer">
+        <p>Caio Henrique Hort, Gabriel Sebold dos Santos e Lucas Cândido Belletti</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Vapor Games</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="../model/userModel.js" defer></script>
+    <script src="../controller/usuarioController.js" defer></script>
+    <script src="../controller/inicioController.js" defer></script>
+    <script src="../controller/loginController.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo" onclick="window.location.href='inicio.html'">
+            <img src="../media/logo.png" alt="Logo Vapor Games">
+            <h1>Vapor Games</h1>
+        </div>
+
+        <nav class="nav">
+            <a href="inicio.html">Início</a>
+            <a href="login.html" class="active">Login</a>
+            <a href="usuario.html">Usuário</a>
+            <a href="cadastro.html">Cadastro</a>
+        </nav>
+
+        <div class="user-status" id="user-status">Usuário não autenticado</div>
+    </header>
+
+    <main class="login-container">
+        <div class="login-box">
+            <h2>Entrar na sua conta</h2>
+            <form id="login-form">
+                <label for="login">Login</label>
+                <input type="text" id="login" placeholder="Digite seu login" required>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="senha" placeholder="Digite sua senha" required>
+
+                <button type="button" id="btn-autenticar">Autenticar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Caio Henrique Hort, Gabriel Sebold dos Santos e Lucas Cândido Belletti</p>
+    </footer>
+</body>
+
+</html>

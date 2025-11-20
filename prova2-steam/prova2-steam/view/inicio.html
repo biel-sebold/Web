@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início - Vapor Games</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="../model/userModel.js" defer></script>
+    <script src="../controller/inicioController.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo" onclick="window.location.href='inicio.html'">
+            <img src="../media/logo.png" alt="Logo Vapor Games">
+            <h1>Vapor Games</h1>
+        </div>
+
+        <nav class="nav">
+            <a href="inicio.html" class="active">Início</a>
+            <a href="login.html">Login</a>
+            <a href="usuario.html">Usuário</a>
+            <a href="cadastro.html">Cadastro</a>
+        </nav>
+
+        <div class="user-status" id="user-status">Usuário não autenticado</div>
+    </header>
+
+    <nav class="menu-bar">
+        <ul class="menu-list">
+            <li class="menu-item dropdown">
+                <button class="menu-toggle">🎮 Jogos ▾</button>
+            </li>
+
+            <li class="menu-item dropdown">
+                <button class="menu-toggle">👥 Comunidade ▾</button>
+            </li>
+
+            <li class="menu-item dropdown">
+                <button class="menu-toggle">🛠️ Suporte ▾</button>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="main-content">
+        <div class="main-center">
+            <img src="../media/fotogamer.jpg" class="main-image">
+            <p class="main-text">
+                Bem-vindo à <strong>Vapor Games</strong>! Aqui você encontra os melhores jogos digitais, ofertas
+                imperdíveis e uma comunidade apaixonada por games. Explore lançamentos, títulos populares e conteúdos
+                exclusivos, tudo em um só lugar.
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p>Caio Henrique Hort, Gabriel Sebold dos Santos e Lucas Cândido Belletti</p>
+    </footer>
+
+</body>
+
+</html>
